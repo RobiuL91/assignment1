@@ -1,4 +1,6 @@
-body{font-family: 'Poppins', sans-serif;}
+body{font-family: 'Poppins', sans-serif;
+  margin: 0%;
+}
 
 span{
     color: rgb(133, 133, 16);
@@ -7,6 +9,8 @@ span{
 
 h1{
     font-size: 40px;
+    
+    
 }
 .mission{
     border-left: 4px orange solid;
@@ -33,5 +37,119 @@ h1{
     width: 70%;
     }
     .contener{
-        display: flex
+        display: flex;
+        padding-left: 50px;
     }
+
+    .contener-position{
+        padding-left: 50px;
+    }
+    .text-position{
+    
+        text-align: center;
+    }
+
+    .float-container{
+        display: flex;
+        width: 90%;
+        margin: 5px;
+        padding-left: 5px;
+    }
+
+    .achievement{
+        width: 30%;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .achievement img {
+        width: 40%;
+    }
+
+    #mission{
+        background-color: lightcyan;
+        border-radius: 15px;
+        
+    }
+
+    #vision{
+        background-color: lavender;
+        border-radius: 15px;
+    }
+
+    #goals{
+        background-color: rgb(243, 240, 239);
+        border-radius: 15px;
+    }
+
+    .coding-skils{
+     display: flex; 
+     margin: auto;
+     padding-top: 10%;
+     padding-left: 50px;
+     }
+
+     .coding-skils img{
+        width: 60%;
+        
+     }
+.community{
+    display: flex;
+    padding-top: 10%;
+    padding-left: 60px
+    
+}
+
+.saparator{
+    width: 50%;
+    padding: 5px;
+    
+}
+
+.saparator img{
+    width: 70%;
+}
+
+#space{
+    padding-right: 20px;
+}
+
+.app-continer{
+    display: flex;
+}
+
+.experience {
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+
+.half-position{
+    width: 50%;
+    padding: 5px;
+}
+
+.half-position img{
+    width: 70%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    opacity: 0.95;
+    margin-top: 100px;
+    padding: 8px;
+    }
+
+    footer h1{
+    font-family: Cursive;
+    
+    }
+
+
+
+    
+
+
